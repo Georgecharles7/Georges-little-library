@@ -46,26 +46,12 @@ section{
 h2{
   color:#1b5e20; /* dark green headings */
 }
-.gallery{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-  gap:15px;
-  margin-top:20px;
-}
-.gallery img{
-  width:100%;
+.story-box{
+  background:#fffbcc; /* light yellow highlight for His Story */
+  border-left:5px solid #ffb300; /* yellow accent line */
+  padding:25px;
   border-radius:8px;
-}
-.story-container{
-  display:flex;
-  flex-wrap:wrap;
-  align-items:center;
-  gap:20px;
-}
-.story-container img{
-  width:200px;
-  border-radius:50%;
-  border:3px solid #ffb300; /* golden yellow accent */
+  margin-top:20px;
 }
 footer{
   background:#2e7d32;
@@ -87,7 +73,6 @@ footer{
 <a href="#about">About</a>
 <a href="#story">His Story</a>
 <a href="#works">How It Works</a>
-<a href="#gallery">Gallery</a>
 <a href="#community">Community</a>
 </nav>
 
@@ -100,13 +85,10 @@ footer{
 </section>
 
 <section id="story">
-<div class="box">
+<div class="story-box">
 <h2>His Story</h2>
-<div class="story-container">
-<img src="george-cartoon.png" alt="Cartoon of George">
-<p>George started this library after losing all his books in the Eaton Fire. He remembered the feeling of losing something precious and wanted <b>other kids who had lost their books</b> to still have stories to enjoy.</p>
-<p>A lifelong reader, George created <b>George’s Little Library</b> to make sure <b>no child goes without a book</b>. Every book shared is a gift of <b>hope, imagination, and comfort</b>.</p>
-</div>
+<p>George started this library after losing all his books in the Eaton Fire. He remembered the feeling of losing something precious and wanted <strong>other kids who had lost their books</strong> to still have stories to enjoy.</p>
+<p>A lifelong reader, George created <strong>George’s Little Library</strong> to make sure <strong>no child goes without a book</strong>. Every book shared is a gift of <strong>hope, imagination, and comfort</strong>.</p>
 </div>
 </section>
 
@@ -117,26 +99,6 @@ footer{
 <p>🔄 <strong>Return it later</strong> or pass it on to a friend.</p>
 <p>📚 <strong>Leave a book</strong> if you would like to share one.</p>
 <p>Our goal is to help grow a community where stories and knowledge are shared freely.</p>
-</div>
-</section>
-
-<section id="gallery">
-<div class="box">
-<h2>Library Moments</h2>
-<p>Add photos of:</p>
-<ul>
-<li>The Little Library</li>
-<li>Kids choosing books</li>
-<li>New books added</li>
-<li>The Tree of Knowledge design</li>
-</ul>
-<div class="gallery">
-<!-- Replace with your actual images -->
-<img src="photo1.jpg" alt="Little Library">
-<img src="photo2.jpg" alt="Kids choosing books">
-<img src="photo3.jpg" alt="New books added">
-<img src="photo4.jpg" alt="Tree of Knowledge design">
-</div>
 </div>
 </section>
 
@@ -155,4 +117,3 @@ footer{
 
 </body>
 </html>
-
