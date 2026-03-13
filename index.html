@@ -53,22 +53,6 @@ h2{
   font-weight:600;
   margin-bottom:15px;
 }
-.story-box{
-  background:white;
-  border-left:6px solid #43a047;
-  padding:25px;
-  border-radius:12px;
-  margin-top:20px;
-}
-.quote-box{
-  background:white;
-  border-left:6px solid #ffb300;
-  padding:25px;
-  border-radius:12px;
-  text-align:center;
-  font-size:1.3em;
-  margin-top:20px;
-}
 footer{
   background:#2e7d32;
   color:white;
@@ -88,7 +72,6 @@ footer{
 
 <nav>
 <a href="#about">About</a>
-<a href="#story">His Story</a>
 <a href="#works">How It Works</a>
 <a href="#community">Community</a>
 </nav>
@@ -97,17 +80,6 @@ footer{
 <div class="box">
 <h2>About George</h2>
 <p>George loves books and believes stories can inspire imagination, curiosity, and kindness. After losing all his books in the Eaton Fire, he remembered how it felt to lose something precious. That experience inspired him to start George’s Little Library so other kids who lost their books could still have stories to read. He wanted to give all kids access to books and put a smile on their faces.</p>
-</div>
-</section>
-
-<section id="story">
-<div class="story-box">
-<h2>His Story</h2>
-<p>George started this library to make sure no child goes without a book after losing all his books in the Eaton Fire. He remembered the feeling of losing something precious and wanted other kids who had lost their books to still have stories to enjoy.</p>
-</div>
-
-<div class="quote-box">
-“Stories like to travel—help them go!”
 </div>
 </section>
 
@@ -122,7 +94,15 @@ footer{
 <section id="community">
 <div class="box">
 <h2>Join Our Community</h2>
-<p>Do you have books to donate? We welcome gently used children's books that can be shared with other readers in the community.</p>
+<p>Do you have books to donate?</p>
+<p>Leave a message to share your thoughts or stories!</p>
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Your name" required style="width:100%; padding:8px; margin:5px 0;"><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" placeholder="Your message" required style="width:100%; padding:8px; margin:5px 0;"></textarea><br>
+  <button type="submit" style="background:#43a047; color:white; padding:10px 20px; border:none; border-radius:8px; cursor:pointer;">Send</button>
+</form>
 </div>
 </section>
 
@@ -132,5 +112,3 @@ footer{
 
 </body>
 </html>
-
-
