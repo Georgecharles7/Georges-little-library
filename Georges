@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>George's Little Library</title>
 
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f7f4;
+color:#333;
+}
+
+header{
+background:#2e7d32;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+nav{
+background:#1b5e20;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:40px;
+max-width:900px;
+margin:auto;
+}
+
+h2{
+color:#2e7d32;
+}
+
+.box{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+margin-top:20px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#2e7d32;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>📚 George's Little Library</h1>
+<p>Take a Book • Leave a Book • Share the Joy of Reading</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#works">How It Works</a>
+<a href="#gallery">Gallery</a>
+<a href="#community">Community</a>
+</nav>
+
+<section id="about">
+<div class="box">
+<h2>About George</h2>
+
+<p>
+George loves books and believes stories inspire imagination,
+curiosity, and kindness.
+</p>
+
+<p>
+George's Little Library is a passion project to share books
+with children and families in the community.
+</p>
+
+<p><strong>"A book shared is a story multiplied."</strong></p>
+
+</div>
+</section>
+
+<section id="works">
+<div class="box">
+<h2>How It Works</h2>
+
+<p>📖 Take a book</p>
+<p>🔄 Return it or pass it along</p>
+<p>📚 Leave a book for someone else</p>
+
+</div>
+</section>
+
+<section id="gallery">
+<div class="box">
+
+<h2>Library Moments</h2>
+
+<p>
+Photos of the library and children reading will be added soon.
+</p>
+
+</div>
+</section>
+
+<section id="community">
+<div class="box">
+
+<h2>Join Our Community</h2>
+
+<p>
+Do you have books to donate? Help inspire the next generation of readers.
+</p>
+
+<p><strong>Together we can grow a Tree of Knowledge.</strong></p>
+
+</div>
+</section>
+
+<footer>
+
+<p>George's Little Library • Community Book Exchange</p>
+
+</footer>
+
+</body>
+</html>
